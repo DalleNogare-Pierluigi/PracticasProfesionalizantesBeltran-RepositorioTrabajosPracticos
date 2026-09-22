@@ -4,6 +4,8 @@ const botonDeUnion = document.getElementById("botonDeUnion");
 
 botonDeUnion.addEventListener("click",()=>{
 
-    alert("Su nombre completo es: " + nombre.value + " " + apellido.value);
+    let nombreYApellido = nombre.value + " " + apellido.value;
+    
+    document.getElementById("nombreYApellido").textContent = nombreYApellido;
 
 });
