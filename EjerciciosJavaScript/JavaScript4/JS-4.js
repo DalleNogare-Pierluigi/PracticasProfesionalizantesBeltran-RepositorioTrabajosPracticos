@@ -6,6 +6,6 @@ botonDeUnion.addEventListener("click",()=>{
 
     let nombreYApellido = nombre.value + " " + apellido.value;
     
-    document.getElementById("nombreYApellido").textContent = nombreYApellido;
+    document.getElementById("nombreYApellido").value = nombreYApellido;
 
 });
