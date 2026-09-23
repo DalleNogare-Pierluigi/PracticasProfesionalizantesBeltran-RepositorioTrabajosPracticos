@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>JavaScript - Ejercicio 8</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="JS-8.css">
+        </head>
+        <body>
+            <h1>Examen múltiple choice</h1>
+            <p>
+                <h3>Primera pregunta: ¿Quién es considerado el mejor futbolista según los argentinos?</h3>
+                <select id = "pregunta1">
+                    <option value = 1>Cristiano Ronaldo</option>
+                    <option value = 2>Killian Mbappé</option>
+                    <option value = 3>Lionel Messi</option>
+                    <option value = 4>Lamine Yamal</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type = "text" class = "correctoOIncorrecto" id = "textoRespuesta1" readonly> 
+                <br>
+                <br>
+                <h3>Segunda pregunta: ¿Cuánto es la raíz cuadrada de 100?</h3>
+                <select id = "pregunta2">
+                    <option value = 1>1</option>
+                    <option value = 2>10</option>
+                    <option value = 3>100</option>
+                    <option value = 4>1000</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type = "text" class = "correctoOIncorrecto" id = "textoRespuesta2" readonly> 
+                <br>
+                <br>
+                <h3>Tercera pregunta: ¿Cuál era la capital de Japón antes que Tokio?</h3>
+                <select id = "pregunta3">
+                    <option value = 1>Kioto</option>
+                    <option value = 2>Saitama</option>
+                    <option value = 3>Fukushima</option>
+                    <option value = 4>Siempre fue Tokio</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type = "text" class = "correctoOIncorrecto" id = "textoRespuesta3" readonly> 
+                <br>
+                <br>
+                <h3>Cuarta pregunta: ¿Cómo se llamaba el primer presidente de los Estados Unidos?</h3>
+                <select id = "pregunta4">
+                    <option value = 1>Theodore Roosevelt</option>
+                    <option value = 2>Abraham Lincoln</option>
+                    <option value = 3>John F. Kennedy</option>
+                    <option value = 4>George Washington</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type = "text" class = "correctoOIncorrecto" id = "textoRespuesta4" readonly>
+                <br>
+                <br>
+                <button id = "comprobarRespuestas">Comprobar respuestas</button>
+                <br>
+                <br>
+                <input type = "text" id = "textoRespuestas" placeholder = "Aquí se verán los resultados de las respuestas." readonly> 
+            </p>
+            <script src = "JS-8.js"></script>
+        </body>
+    </html>
