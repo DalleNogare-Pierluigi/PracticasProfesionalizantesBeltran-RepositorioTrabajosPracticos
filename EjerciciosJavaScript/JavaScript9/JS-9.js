@@ -1,0 +1,1 @@
+function alertaDeLargo(l) {if ((l.value.length < 7) || (l.value.length > 20)) alert("Alera: la cantidad de caracteres de la contraseña es inválida.");}
